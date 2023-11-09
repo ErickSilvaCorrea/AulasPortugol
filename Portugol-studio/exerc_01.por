@@ -32,17 +32,17 @@ programa
 			escreva("O maior será o 2º peso ",maior,"kgs")
 		}
 			
-				senao se(p3>p2 e p3>p1 e p3>p4)
-				{
-					maior = p3
-					escreva("O maior será o 2º peso ",maior,"kgs")
-				}
+		senao se(p3>p2 e p3>p1 e p3>p4)
+		{
+			maior = p3
+			escreva("O maior será o 2º peso ",maior,"kgs")
+		}
 				
-					senao se(p4>p2 e p4>p3 e p4>p1)
-					{
-						maior = p4
-						escreva("O maior será o 3º peso ",maior,"kgs")
-					}
+		senao se(p4>p2 e p4>p3 e p4>p1)
+		{
+			maior = p4
+			escreva("O maior será o 3º peso ",maior,"kgs")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
