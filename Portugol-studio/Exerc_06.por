@@ -4,8 +4,8 @@
 programa
 {
 	
-	funcao inicio()
-	{
+  funcao inicio()
+  {
 		
     inteiro lado1, lado2, lado3
 
@@ -22,11 +22,10 @@ programa
     se (lado1 == lado2 e lado1 == lado3) 
     {
 
-    	escreva("A figura é um triângulo Equilátero")
+		escreva("A figura é um triângulo Equilátero")
     }
  
-    senao
-        se (lado1 == lado2 ou lado1 == lado3 ou lado2 == lado3) 
+    senao se (lado1 == lado2 ou lado1 == lado3 ou lado2 == lado3) 
         {
         	 escreva("A figura é um triângulo Isósceles")
         }
