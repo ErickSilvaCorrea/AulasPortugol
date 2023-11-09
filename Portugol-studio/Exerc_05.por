@@ -7,8 +7,8 @@ programa
  
  
  inteiro nivel_professor 
-    real horas_trabalhadas 
-    real valor_hora, salario
+ real horas_trabalhadas 
+ real valor_hora, salario
 
 funcao inicio()
   {
@@ -19,20 +19,18 @@ funcao inicio()
 	leia(horas_trabalhadas)
 
      se (nivel_professor == 1)
-    		{
-    			 valor_hora = 15.50
-    		}
-    senao
-        se (nivel_professor == 2 )
-        {
-        	valor_hora = 17.80
-        }
+    {
+    	 valor_hora = 15.50
+    }
+    senao se (nivel_professor == 2 )
+    {
+	valor_hora = 17.80
+    }
            
-        senao
-            se (nivel_professor == 3) 
-            {
-            	 valor_hora = 23.00
-            }
+        senao se (nivel_professor == 3) 
+   {
+	valor_hora = 23.00
+   }
                 
             senao
                 escreva("Nível de professor inválido. Tente novamente.")
