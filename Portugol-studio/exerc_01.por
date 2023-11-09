@@ -26,11 +26,11 @@ programa
 			escreva("O maior será o 1º peso ",maior,"kgs")
 		}
 		
-			senao se(p2>p1 e p2>p3 e p2>p4)
-			{
-				maior = p2
-				escreva("O maior será o 2º peso ",maior,"kgs")
-			}
+		senao se(p2>p1 e p2>p3 e p2>p4)
+		{	
+			maior = p2
+			escreva("O maior será o 2º peso ",maior,"kgs")
+		}
 			
 				senao se(p3>p2 e p3>p1 e p3>p4)
 				{
