@@ -10,15 +10,15 @@ programa
  real horas_trabalhadas 
  real valor_hora, salario
 
-funcao inicio()
-  {
+    funcao inicio()
+    {
 
 	escreva("Digite o nível do professor (1, 2 ou 3): ") 
-    	leia(nivel_professor)
+    leia(nivel_professor)
 	escreva("Digite o número de horas trabalhadas: ")
 	leia(horas_trabalhadas)
 
-     se (nivel_professor == 1)
+    se (nivel_professor == 1)
     {
     	 valor_hora = 15.50
     }
@@ -27,13 +27,13 @@ funcao inicio()
 	valor_hora = 17.80
     }
            
-        senao se (nivel_professor == 3) 
+    senao se (nivel_professor == 3) 
    {
 	valor_hora = 23.00
    }
                 
-            senao
-                escreva("Nível de professor inválido. Tente novamente.")
+    senao
+    escreva("Nível de professor inválido. Tente novamente.")
                
             
     salario = valor_hora * horas_trabalhadas
