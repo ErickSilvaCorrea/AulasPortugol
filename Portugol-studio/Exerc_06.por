@@ -22,19 +22,18 @@ programa
     se (lado1 == lado2 e lado1 == lado3) 
     {
 
-		escreva("A figura é um triângulo Equilátero")
+		 escreva("A figura é um triângulo Equilátero")
     }
  
     senao se (lado1 == lado2 ou lado1 == lado3 ou lado2 == lado3) 
-        {
-        	 escreva("A figura é um triângulo Isósceles")
-        }
+    {
+     escreva("A figura é um triângulo Isósceles")
+    }
            
-        senao
-           
-            {
-            	 escreva("A figura é um triângulo Escaleno")	
-            }
+    senao       
+    {
+     escreva("A figura é um triângulo Escaleno")	
+    }
         
  
 	}
